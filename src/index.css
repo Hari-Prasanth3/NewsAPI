@@ -1,3 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h1{
+  font-size: 90px;
+  font-family: 'playfair';
+  text-align: center;
+  justify-content: center;
+  margin-top: 0%;
+  margin-bottom: 20px;
+} 
+h1 span{
+  color: red;
+  font-size: 120px;
+}
+hr{
+  margin-bottom: 8px;
+}
+.form{
+  text-align: center;
+}
+input{
+  height: 50px;
+ border-color: lightgray;
+  width: 250px;
+  margin-bottom: 10px;
+}
+Button{
+  background-color: red;
+  color: white;
+  height: 50px;
+  width: 70px;
+  border: hidden;
+}
+.sideHeading{
+  color: red;
+  font-size: 30px;
+  display: flex;
+    margin-left: 180px;
+  margin-right: 180px;
+  /* padding-left: 30px; */
+  padding: 10px;
+  
+}
+.interFace{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.containers{
+  width: 250px;
+  margin: 50px;
+  margin-bottom: 0;
+  border-color: #212529;
+}
+.image{
+  width: 250px;
+  height: 150px;
+}
+h4{
+  color: grey;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+h3 a{
+  color: red;
+  font-size: 20px;
+}
+.footer{
+  text-align: center;
+  margin-top: 50px;
+}
+.footer p{
+  padding: 50px;
+}
+.footer span{
+  color: red;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
