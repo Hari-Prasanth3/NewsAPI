@@ -1,4 +1,4 @@
-import { createSlice, createAsyncThunk, isRejected } from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import Axios from 'axios';
 
 export const fetch = createAsyncThunk('get', async () => {
